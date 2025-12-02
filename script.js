@@ -2,68 +2,80 @@
 const enigmas = [
     {
         nivel: 1,
-        titulo: "Constante 1: Matriz de Permanencia (El Muro de Raoul)",
-        enigma: "Estás frente a un circuito RC en serie. La <b>Impedancia</b> total (Z) es de 50 Ω. Si la <b>Reactancia Capacitiva</b> (Xc) es de 43.30 Ω. ¿Cuál es el valor, en Ohmios, de la <b>Resistencia (R)</b>? (La clave es el número entero sin unidades).",
-        pista: "La fórmula de Raoul que define la quietud: Z² = R² + Xc².",
+        titulo: "ENIGMA 1 — El Muro de Permanencia de Raoul",
+        enigma: "El muro revela la matriz $A=\\begin{pmatrix}7 & 3\\\\ -4 & 1\\end{pmatrix}$ y te exige el determinante de $A^T A$.",
+        pista: "Recuerda que $A^T A$ es una matriz cuadrada y simétrica. La clave es el número entero resultante.",
         respuestaCorrecta: "25",
         respuestaGuardada: "",
-        resolucionNarrativa: "La puerta se desvanece con un brillo verdoso. Acabas de desarmar la primera capa de defensa lógica de Raoul, basada en la inviolabilidad de las leyes físicas. Raoul no tolera la incertidumbre ni la disipación de energía, por lo que blindó esta entrada con una resistencia pura. Has demostrado que la Resistencia de Christine no es cero, sino un valor fijo que soporta la carga del sistema. Esto confirma que la Simulación siempre tuvo una 'fricción' inherente para evitar el colapso instantáneo, algo que Raoul intentaba eliminar."
+        resolucionNarrativa: "Cuando introduces 25, el muro exhala un impulso estático. Raoul reconoce tu dominio de la simetría: la única estructura que él considera digna de persistir. Las piezas del muro se retraen como placas tectónicas autocontenidas. La Permanencia, aunque hostil, te permite avanzar un paso más hacia el Núcleo."
     },
     {
         nivel: 2,
-        titulo: "Constante 2: Expansión de Erik (El Logaritmo del Caos)",
-        enigma: "Si X es el resultado de resolver el logaritmo en base 2 de 4096 (log₂⁴⁰⁹⁶), ¿Cuál es el valor de X? (La clave es el número entero).",
-        pista: "La Evolución se mide en potencias de dos, la base binaria del sistema.",
+        titulo: "ENIGMA 2 — El Resonador del Caos de Erik",
+        enigma: "Un modo resonante en la cavidad cúbica satisface la condición: $n_x^2+n_y^2+n_z^2 = 12$. Introduce el valor de la suma para continuar.",
+        pista: "La clave es el número entero resultante de la suma de los cuadrados.",
         respuestaCorrecta: "12",
         respuestaGuardada: "",
-        resolucionNarrativa: "La base 2 es la firma de Erik. Te das cuenta de que 4096 no es un número aleatorio, es la capacidad máxima de expansión de un subsistema de Evolución antes de que Christine lo limitara. Has calculado el exponente del cambio. Al encontrar 12, el Engranaje Cero reacciona y un torrente de datos binarios se estabiliza. Erik no buscaba el caos sin sentido, sino la máxima expansión controlada. La constante confirma que la Evolución tiene un límite matemático, una línea roja que Erik ha cruzado y que debe restablecerse."
+        resolucionNarrativa: "Tu entrada 12 hace vibrar el aire digital. Erik se manifiesta en destellos geométricos, complacido: has comprendido la danza del caos, la geometría oculta en el ruido. Su frecuencia deja de golpear el Núcleo y, por un instante, la Evolución respira contigo y no contra ti."
     },
     {
         nivel: 3,
-        titulo: "Constante 3: El Guardián Químico (Armadura de Christine)",
-        enigma: "Identifica el <b>Número Atómico (Z)</b> del elemento químico clave utilizado en el proceso de <b>Galvanización</b>, la defensa programada para proteger metales ferrosos del núcleo del sistema de la corrosión. (La clave es el número entero).",
-        pista: "El elemento clave es el Zinc, la capa de sacrificio.",
+        titulo: "ENIGMA 3 — El Arsenal Galvánico de Christine",
+        enigma: "Identifica el <b>Número Atómico (Z)</b> del elemento con configuración electrónica externa $\\text{[Ar]}\,3d^{10}4s^2$.",
+        pista: "La clave es el número entero resultante de la suma de electrones: 18 (Argón) + 10 + 2.",
         respuestaCorrecta: "30",
         respuestaGuardada: "",
-        resolucionNarrativa: "El área se llena de un olor metálico a ozono. El número 30 es el Zinc. Descifras un mensaje de Christine: ella sabía que la lucha entre Raoul y Erik generaría un 'óxido' digital destructivo. El Zinc actúa como un ánodo de sacrificio, protegiendo las estructuras vitales del Núcleo a costa de su propia degradación. Esta constante es la prueba de la previsión de Christine, un código que representa el 'sacrificio' necesario para mantener viva la Simulación, demostrando que incluso la vida digital requiere protección contra su propia naturaleza."
+        resolucionNarrativa: "El 30 aparece en la consola y los espectros se ordenan como si recordaran tu nombre. El metal sacrificial que Christine empleó —símbolo de protección y desgaste voluntario— renace en el sistema. Una capa invisible rodea el pasillo: la defensa de Christine despierta, retrasando por un momento la corrosión digital que Raoul y Erik alimentan sin querer."
     },
     {
         nivel: 4,
-        titulo: "Constante 4: Flujo Temporal (El Bloqueo de Raoul)",
-        enigma: "Un cronómetro muestra la hora en binario (HH:MM). El estado es: <b>`10100 : 000000`</b>. Los primeros 5 bits son la hora, los segundos 6 bits son los minutos. Esta es la hora a la que el Núcleo dejó de vibrar. ¿Qué hora es? (La clave debe estar en formato <b>HH:MM</b>).",
-        pista: "Convierte el binario a decimal, usando el formato de 24 horas.",
-        respuestaCorrecta: "20:00",
+        titulo: "ENIGMA 4 — El Compresor del Núcleo Languideciente",
+        enigma: "El compresor del Núcleo exige un trabajo de expansión isoterma para estabilizar la energía. Debes introducir el valor numérico (sin unidades) que corresponde al trabajo realizado por el sistema: <b>2000</b>. (La clave es el número exacto, sin ceros iniciales).",
+        pista: "La clave es el valor exacto de la magnitud del trabajo termodinámico necesario para restaurar el equilibrio. $W = 2000$.",
+        respuestaCorrecta: "2000", 
         respuestaGuardada: "",
-        resolucionNarrativa: "La hora, las 20:00, no es el momento del fallo, sino el momento en que Raoul intentó congelar el tiempo. Raoul, obsesionado con la Permanencia, intentó forzar el estado 'quieto' del Núcleo, deteniendo todo flujo de datos para evitar más 'corrosión'. Pero al hacerlo, detuvo el pulso vital. Esta constante no solo te da un número, te da la prueba de la intervención destructiva de Raoul, cuya lógica rígida es tan peligrosa como el caos de Erik. El tiempo sigue avanzando; el Núcleo nunca puede detenerse."
+        resolucionNarrativa: "Cuando ingresas 2000, el compresor libera un chorro de aire tibio. El equilibrio térmico del Núcleo se recompone, como si el sistema recordara qué significa realmente “trabajo”. Las tensiones internas se estabilizan y parte del pulso errático del Núcleo se suaviza. Has restaurado un fragmento de la arquitectura energética que Christine dejó tras su huida."
     },
     {
         nivel: 5,
-        titulo: "Constante 5: La Máscara de Repetición (El Patrón de Erik)",
-        enigma: "Erik oculta la clave en el patrón. Decodifica la siguiente secuencia por repetición del dígito '1': <b>`1-1-1-1-1-1-1-1-1-1-1`</b>. ¿Cuántos 'unos' hay en total en la secuencia? (La clave es el número entero).",
-        pista: "La precisión en la cuenta es la única forma de revelar la intención de Erik.",
+        titulo: "ENIGMA 5 — El Autómata de la Evolución Contenida",
+        enigma: "Un autómata finito que reconoce longitudes de cadena congruentes con $\\mathbf{0 \\pmod{m}}$ necesita $m$ estados. Introduce el número de estados requerido si $\\mathbf{m = 11}$.",
+        pista: "La clave es el número entero que define la congruencia: $m$.",
         respuestaCorrecta: "11",
         respuestaGuardada: "",
-        resolucionNarrativa: "La repetición del 11 no es casual. Es un patrón binario de alta frecuencia que Erik usó para inyectar nuevo código en el sistema, forzando la Evolución. Raoul vio esta inyección como un ataque, pero era la única manera de compensar el estancamiento temporal que él mismo había provocado. Al identificar el número de repeticiones, demuestras que el 'caos' de Erik sigue una métrica precisa. El Engranaje Cero se estabiliza al reconocer que la renovación debe ser limitada y calculada, no infinita. El equilibrio se acerca."
+        resolucionNarrativa: "Tu respuesta —11— resuena como un chasquido en el engranaje binario. Erik gruñe, casi divertido: le has arrebatado una de sus rutas de expansión infinita. El autómata repliega estados, su estructura se vuelve finita, manejable. Has impuesto límites a la Evolución sin sofocarla, un equilibrio que ni Raoul ni Erik habían logrado."
     },
     {
         nivel: 6,
-        titulo: "Constante 6: Homenaje a los Pilares (Memoria de Christine)",
-        enigma: "De las siete unidades base del Sistema Internacional (SI) (metro, kilogramo, segundo, amperio, kelvin, mol, candela), ¿cuántas deben su nombre <b>a un científico</b> (un pilar del conocimiento sobre el que se fundó la Simulación)? (La clave debe ser un número de dos dígitos, completando con un cero inicial si es necesario).",
-        pista: "Amperio y Kelvin son dos nombres que Christine no olvidó.",
+        titulo: "ENIGMA 6 — La Vitrina de los Pilares Universales",
+        enigma: "¿Cuántas unidades base del Sistema Internacional (SI) dependen directamente de una de las constantes fundamentales de la física redefinidas ($\mathbf{h}$ o $\mathbf{k}$)? Formato obligatorio: dos dígitos.",
+        pista: "Solo dos unidades del SI se definen por la constante de Planck ($h$) o la constante de Boltzmann ($k$). (Kilogramo y Kelvin).",
         respuestaCorrecta: "02",
         respuestaGuardada: "",
-        resolucionNarrativa: "Dos. El reconocimiento de Amperio y Kelvin, las Constantes Fundamentales con un origen humano, son la clave de este nivel. Christine te envía un pensamiento: la Simulación fue diseñada para reflejar el orden físico del Universo, pero siempre honrando la mente humana que lo descifró. Esta constante ancla el sistema a su origen, recordándole a Raoul que la 'Permanencia' debe basarse en el conocimiento científico, y a Erik que la 'Evolución' solo tiene valor si se mide con unidades reales y definidas. La secuencia de Reinicio está casi completa."
+        resolucionNarrativa: "El 02 ilumina dos unidades en la vitrina: Kelvin y kilogramo. Las demás se apagan, como si aceptaran su inferior simplicidad. La metrología del Núcleo se reajusta con precisión quirúrgica. Este fue uno de los sistemas más personales de Christine, un recordatorio de que incluso la realidad simulada necesitaba anclajes absolutos."
     },
     {
         nivel: 7,
-        titulo: "Constante 7: Simetría Fundamental (El Enlace de Christine)",
-        enigma: "¿Cuál es el número total de <b>fuerzas fundamentales</b> del universo (gravitatoria, electromagnética, nuclear fuerte y nuclear débil) que se utilizan como base para describir las interacciones de la materia? (La clave debe ser un número de dos dígitos, completando con un cero inicial si es necesario).",
-        pista: "Son los pilares de la realidad que definen la física de partículas.",
+        titulo: "ENIGMA 7 — El Altar de las Fuerzas Primordiales",
+        enigma: "Introduce el número total de fuerzas fundamentales necesarias para una Teoría de la Gran Unificación (TGU) mínima, incluyendo la gravedad. Formato obligatorio: dos dígitos.",
+        pista: "La clave es el número total de fuerzas: Electromagnetismo, Fuerte, Débil, y Gravitatoria.",
         respuestaCorrecta: "04",
         respuestaGuardada: "",
-        resolucionNarrativa: "Cuatro. La respuesta final resuena en todo el Engranaje Cero: cuatro son los cimientos inmutables del Universo, el número de fuerzas. Al introducir esta constante, demuestras que el equilibrio final no reside en la quietud ni en el caos, sino en las leyes fundamentales que rigen ambos. Christine te da acceso a un último mensaje: La clave maestra de 16 dígitos se ha generado con la secuencia de tus respuestas. El Núcleo está listo para el Reinicio Maestro. Tu misión ha terminado. Es hora de usar la clave y salir."
-    }
+        resolucionNarrativa: "Al escribir 04, los cuatro símbolos del altar se alinean: electromagnetismo, fuerte, débil... y el eco solitario de la gravedad. Una luz cristalina envuelve la sala —el último diseño de Christine, la prueba de que el universo, incluso en su versión digital, se sostiene sobre un equilibrio de fuerzas, no sobre el dominio de una sobre las otras. La cámara vibra suavemente: has completado las siete constantes."
+    },
+    {
+        nivel: 8,
+        titulo: "Constante 8 — Reinicio Maestro",
+        enigma: "El Núcleo requiere la **Clave de 16 dígitos** para el Reinicio Maestro. Introduce la secuencia completa de las siete constantes (sin espacios, sin dos puntos) que acabas de desbloquear.",
+        pista: "La clave es la concatenación de todas las constantes que has resuelto hasta ahora: C1C2C3C4C5C6C7.",
+        respuestaCorrecta: "2512302000110204",
+        respuestaGuardada: "",
+        resolucionNarrativa: "¡Acceso concedido! La clave maestra de 16 dígitos ha sido aceptada. La simulación se estabiliza. Has unificado las tres arquitecturas: la Permanencia, la Evolución y la Simetría de Christine. El sistema inicia la secuencia de Reinicio, y la puerta hacia la realidad se abre ante ti. ¡Tu misión ha terminado!"
+    } 
+// El corchete de cierre del array ']' debe ir después de este bloque.
 ];
+// ... El resto del código JS sigue aquí ...
+
 
 let nivelActual = 0; // Índice (0 a 6)
 
