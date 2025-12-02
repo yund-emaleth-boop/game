@@ -210,13 +210,7 @@ window.verificarRespuesta = function() {
         actualizarControles();
         
         // Damos más tiempo para leer la narrativa y luego pasamos automáticamente
-        setTimeout(() => {
-            if (nivelActual < enigmas.length - 1) {
-                cambiarNivel(1);
-            } else {
-                mostrarFinal();
-            }
-        }, 3500); 
+        
 
     } else {
         mensajeArea.textContent = 'Clave incorrecta. ¡Error en la matriz!';
